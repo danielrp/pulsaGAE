@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime gae-sdk-name\="appengine-java-sdk-1.8.3" gae-sdk-version\="1.8.3" id\="Google App Engine" location\="D\:/eclipse-jee-juno-SR1-win32-x86_64/plugins/appengine-java-sdk-1.8.3" name\="Google App Engine" runtime-type-id\="com.google.appengine.runtime.id1" timestamp\="0"/>\r\n</runtimes>\r\n

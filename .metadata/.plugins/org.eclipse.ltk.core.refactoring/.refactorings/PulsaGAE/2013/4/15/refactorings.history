@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TransaksiForm.java&apos; to &apos;PulsaGAE/src/com.pulsa.persistence.model&apos;&#x0D;&#x0A;- Original project: &apos;PulsaGAE&apos;&#x0D;&#x0A;- Destination element: &apos;PulsaGAE/src/com.pulsa.persistence.model&apos;&#x0D;&#x0A;- Original element: &apos;com.pulsa.persistence.model.TransaksiForm.java&apos;" description="Copy compilation unit" destination="/src&lt;com.pulsa.persistence.model" element1="/src&lt;com.pulsa.persistence.model{TransaksiForm.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1365412029250" units="1" version="1.0"/>
+</session>

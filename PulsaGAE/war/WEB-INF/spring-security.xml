@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+  xmlns:beans="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/security
+           http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+        <http pattern="/common/*" security="none"/>
+
+      <http auto-config="true">
+        <intercept-url pattern="/admin/**" access="ROLE_ADMIN" />  
+		<intercept-url pattern="/customer/*" access="ROLE_USER" />
+		<intercept-url pattern="/product/*" access="ROLE_USER" />
+		<intercept-url pattern="/transaksi/*" access="ROLE_USER" />
+		<intercept-url pattern="/personal/*" access="ROLE_USER" />
+		<intercept-url pattern="/maintenance/*" access="ROLE_USER" />
+		<intercept-url pattern="/_ah/*" access="ROLE_USER" />
+		
+		<form-login login-page='/login' default-target-url='/transaksi/list?p=0'
+             login-processing-url="/login_check"
+            authentication-failure-url="/login?login_error=2"
+            
+             always-use-default-target="true"/>
+		<logout logout-url="/logout" logout-success-url="/login"/>
+	</http>
+	
+        <!-- authentication-success-handler-ref="authenticationSuccessHandler" -->
+    <!-- 
+	<authentication-manager>
+		<authentication-provider>
+			<user-service>
+				<user name="daniel" password="daniel" authorities="ROLE_USER"  />
+				<user name="angela" password="angela" authorities="ROLE_USER"  />
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>
+ -->
+	<authentication-manager >
+		<authentication-provider ref="gaeAuthenticationProvider"/>
+	</authentication-manager>
+
+	<beans:bean id="gaeAuthenticationProvider" class="com.pulsa.security.AuthenticationProvider"/>
+	
+</beans:beans>  
