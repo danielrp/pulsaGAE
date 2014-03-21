@@ -205,8 +205,6 @@ public class ReadExcel {
 				b.setProduct(product);
 				b.setStatus("r");
 				b.setPaid(paid);
-				b.setUsername(SessionHelper.getUsername());
-				
 				lastBal=lastBal+b.getDebet()-b.getKredit();
 				b.setBalance(lastBal);
 				if(urut>0)

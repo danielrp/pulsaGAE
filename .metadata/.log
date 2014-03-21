@@ -891,3 +891,25 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.sse.ui 2 2 2014-03-22 00:19:33.048
+!MESSAGE StructuredTextEditor being used without StructuredDocument
+
+!ENTRY org.eclipse.wst.sse.ui 2 2 2014-03-22 00:19:33.057
+!MESSAGE          Input Name: balance.jsp
+
+!ENTRY org.eclipse.wst.sse.ui 2 2 2014-03-22 00:19:33.067
+!MESSAGE         Unexpected IDocumentProvider implementation: org.eclipse.ui.editors.text.TextFileDocumentProvider
+
+!ENTRY org.eclipse.wst.sse.ui 2 2 2014-03-22 00:19:33.076
+!MESSAGE         Unexpected IDocument implementation: org.eclipse.core.internal.filebuffers.SynchronizableDocument
+
+!ENTRY com.google.appengine.eclipse.core 1 0 2014-03-22 00:23:15.168
+!MESSAGE PulsaGAE successfully deployed to Google App Engine
+
+!ENTRY com.google.gdt.eclipse.suite.ext 1 0 2014-03-22 00:23:15.443
+!MESSAGE Analytics ping request parameters: v=1&t=event&el=id%3D1394944098313%26ev%3D3.8.101.v20130717-0806%26v%3Dcom.google.gdt.eclipse.suite.e43.feature_3.5.1.v201312301723-rel-r43%26gaev%3D1.8.3%26p%3Dorg.eclipse.epp.package.standard.product%26action%3Dgae_backend_deploy%26appIdHash%3D71D7FEFDF7BA94384CA7BF9FE8E10D4C4330AB15%26isGoogleCloudSqlUsed%3Dfalse%26isSignedIn%3Dtrue&cd1=org.eclipse.epp.package.standard.product&cd2=71D7FEFDF7BA94384CA7BF9FE8E10D4C4330AB15&an=Google%20Plugin%20for%20Eclipse&tid=UA-43239122-1&ea=DEPLOY_GAE&cid=1394944098313&ec=com.google.gdt.eclipse.core
+
+!ENTRY com.google.gdt.eclipse.suite.ext 1 0 2014-03-22 00:23:15.575
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
